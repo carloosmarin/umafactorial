@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class factorial {
 
     public static long fact(long num) {
-        if ( num<=0){
+        if (num<=0){
             return 1;
         } else {
             return num*fact(num-1);
@@ -20,9 +20,8 @@ public class factorial {
         long num = scanInput.nextLong();
         
         long fac = fact(num);
-        
 
-        System.out.println("El factorial de "+num+" es " +fac);
+        System.out.println("El factorial de " +num+ " es "+fac);
         scanInput.close();
     }
 }
