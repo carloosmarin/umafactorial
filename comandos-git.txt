@@ -1,0 +1,42 @@
+
+1- git config user.name nombre_de_usuario(item 0)
+Comando para configurar el nombre del usuario 
+
+2- git config user.email direccion_email(item 0)
+Comando para configurar el e-mail del usuario
+
+3- git clone url(item 1)
+Comando para clonar el repositorio en el ordenador
+
+4- git branch master(item 2)
+Comando para crear una rama, master en este caso
+
+5- touch factorial.java(item 2)
+Comando para crear un nuevo archivo, en este caso factorial.java
+
+6- git add factorial.java(item 3)
+Comando para añadir el fichero factorial.java
+
+7- git commit -m "implementacion inicial"(item 3)
+Comando para enviar un commit con el mensaje entre comillas
+
+8- git push origin master(item 5)
+Comando para enviar los cambios en la rama actual (master) al repositorio de github
+
+9- git checkout -b recursivo(item 5)
+Comando para crear una rama nueva y automaticamente cambiar a ella
+
+10-git checkout master(item 8)
+Comando para cambiar de rama, en este caso a master
+
+11- git merge recursivo (item 12)
+Comando para mezclar los cambios de la rama recursivo en la rama actual
+
+12- git stash(item 15)
+Comando para guardar temporalmente los cambios realizados en la rama actual
+
+13- git stash pop(item 16)
+Comando para recuperar los cambios que guardamos en el stash
+
+
+
